@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATFlashMovie 1.0\n"
+"POT-Creation-Date: 2005-03-25 16:38+0100\n"
+"PO-Revision-Date: 2008-09-16 22:58+0200\n"
+"Last-Translator: Vladimir Iliev <vladimir.iliev@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: bg\n"
+"Language-name: Bulgarian\n"
+"Preferred-encodings: latin1 utf-8\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: en-au en-bz en-ca en-ie en-jm en-nz en-ph en-za en-tt en-gb en-us en-zw\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+
+msgid "heading_portlet"
+msgstr "Флаш филм"
+
+msgid "desc_portlet"
+msgstr "Портлет изобразяващ Флаш филм."
+
+msgid "label_type_flashmovie"
+msgstr "Флаш филм"
+
+msgid "desc_type_flashmovie"
+msgstr "Adobe Flash филм."
+

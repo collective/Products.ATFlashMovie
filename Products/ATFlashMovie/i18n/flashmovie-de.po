@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATFlashMovie 1.0\n"
+"POT-Creation-Date: 2005-03-25 16:38+0100\n"
+"PO-Revision-Date: 2006-07-03 11:51+0100\n"
+"Last-Translator: Christian Schneider <christian@daftdog.de>\n"
+"Language-Team: DIT/BPM/INTERNET\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ATFlashMovie\n"
+"Language-code: de\n"
+"Language-name: Deutsch\n"
+"Preferred-encodings: utf-8\n"
+"X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
+
+msgid "add_portlet"
+msgstr ""
+
+msgid "desc_bgcolor"
+msgstr "Wählen Sie eine Hintergrundfarbe für die Animation."
+
+msgid "desc_height"
+msgstr "Höhe des Bildes in Pixeln."
+
+msgid "desc_portlet"
+msgstr ""
+
+msgid "desc_scale"
+msgstr "Sie können den Flash Film vergrößern oder verkleinern."
+
+msgid "desc_technical_info"
+msgstr ""
+
+msgid "desc_width"
+msgstr "Breite des Bildes in Pixeln."
+
+msgid "edit_portlet"
+msgstr ""
+
+msgid "heading_portlet"
+msgstr ""
+
+msgid "help_portlet_selection"
+msgstr ""
+
+msgid "label_bgcolor"
+msgstr "Hintergrundfarbe"
+
+msgid "label_flashversion"
+msgstr "Flash Version"
+
+msgid "label_height"
+msgstr "Höhe"
+
+msgid "label_portlet_selection"
+msgstr ""
+
+msgid "label_scale"
+msgstr "Maßstab"
+
+msgid "label_technical_info"
+msgstr ""
+
+msgid "label_width"
+msgstr "Breite"
+
+msgid "technical_informations"
+msgstr ""
+

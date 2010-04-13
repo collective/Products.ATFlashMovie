@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATFlashMovie 1.0\n"
+"POT-Creation-Date: 2005-03-25 16:38+0100\n"
+"PO-Revision-Date: 2008-09-16 22:55+0200\n"
+"Last-Translator: Vladimir Iliev <vladimir.iliev@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: bg\n"
+"Language-name: Bulgarian\n"
+"Preferred-encodings: utf-8\n"
+"Domain: ATFlashMovie\n"
+"X-Is-Fallback-For: en-au en-bz en-ca en-ie en-jm en-nz en-ph en-za en-tt en-gb en-us en-zw\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+
+msgid "label_scale"
+msgstr "Мащаб"
+
+msgid "desc_scale"
+msgstr "Изберете мащаб на филма."
+
+msgid "label_width"
+msgstr "Широчина"
+
+msgid "desc_width"
+msgstr "Широчината на филма в пиксели."
+
+msgid "label_height"
+msgstr "Височина"
+
+msgid "desc_height"
+msgstr "Височината на филма в пиксели."
+
+msgid "label_flashversion"
+msgstr "Версия на Флаш"
+
+msgid "label_bgcolor"
+msgstr "Цвят на фона"
+
+msgid "desc_bgcolor"
+msgstr "Изберете цвят на фона който да бъде използван за филма."
+
+msgid "heading_portlet"
+msgstr "Флаш филм"
+
+msgid "add_portlet"
+msgstr "Добавяне на флаш портлет"
+
+msgid "desc_portlet"
+msgstr "Портлет показващ Флаш филм."
+
+msgid "edit_portlet"
+msgstr "Редактиране на Флаш портлет"
+
+msgid "label_portlet_selection"
+msgstr "Флаш филм"
+
+msgid "help_portlet_selection"
+msgstr "Изберете Флаш филм, който да бъде показан в портлета."
+
+msgid "technical_informations"
+msgstr "Техническа информация"
+
+msgid "label_technical_info"
+msgstr "Показване на техническа информация"
+
+msgid "desc_technical_info"
+msgstr "Изберете, за да бъде показана техническа информация."
+

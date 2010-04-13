@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATFlashMovie 1.0\n"
+"POT-Creation-Date: 2005-03-25 16:38+0100\n"
+"PO-Revision-Date: 2007-12-11 18:28+0100\n"
+"Last-Translator: Jean-Charles ROGEZ <jean-charles.rogez@edf.fr>\n"
+"MIME-Version: 1.0\n"
+"Language-Team: EDF\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: en\n"
+"Language-name: English\n"
+"Preferred-encodings: latin1 utf-8\n"
+"Domain: ATFlashMovie\n"
+"X-Is-Fallback-For: en-au en-bz en-ca en-ie en-jm en-nz en-ph en-za en-tt en-gb en-us en-zw\n"
+
+
+msgid "label_scale"
+msgstr "Scale"
+
+msgid "desc_scale"
+msgstr "Select the scale of the movie."
+
+msgid "label_width"
+msgstr "Width"
+
+msgid "desc_width"
+msgstr "The width of the movie in pixels."
+
+msgid "label_height"
+msgstr "Hauteur"
+
+msgid "desc_height"
+msgstr "The height of the movie in pixels."
+
+msgid "label_flashversion"
+msgstr "Flash version"
+
+msgid "label_bgcolor"
+msgstr "Background color"
+
+msgid "desc_bgcolor"
+msgstr "Select the background color to use for the movie."
+
+msgid "heading_portlet"
+msgstr "Flash Movie"
+
+msgid "add_portlet"
+msgstr "Add a Flash portlet"
+
+msgid "desc_portlet"
+msgstr "A portlet displaying a Flash movie."
+
+msgid "edit_portlet"
+msgstr "Edit the Flash portlet"
+
+msgid "label_portlet_selection"
+msgstr "Flash Movie"
+
+msgid "help_portlet_selection"
+msgstr "Select the Flash movie to display in the portlet."
+
+msgid "technical_informations"
+msgstr "Technical informations"
+
+msgid "label_technical_info"
+msgstr "Show technical informations"
+
+msgid "desc_technical_info"
+msgstr "Check to display technical informations about the Flash movie."

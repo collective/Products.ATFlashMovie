@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<import-steps>
+ <import-step id="flashmovie-mimetypesregistry" version="20070309-01"
+              handler="Products.ATFlashMovie.setuphandlers.setupMimetypesRegistry"
+              title="ATFlashMovie MimetypesRegistry setup">
+    <dependency step="mimetypes-registry-various" />
+    MimetypesRegistry installation step.
+ </import-step>
+</import-steps>

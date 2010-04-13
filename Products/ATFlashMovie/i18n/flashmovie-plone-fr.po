@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATFlashMovie 1.0\n"
+"POT-Creation-Date: 2005-03-25 16:38+0100\n"
+"PO-Revision-Date: 2007-11-15 14:53+0100\n"
+"Last-Translator: Jean-Charles ROGEZ <jean-charles.rogez@edf.fr>\n"
+"MIME-Version: 1.0\n"
+"Language-Team: EDF\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: fr\n"
+"Language-name: French\n"
+"Preferred-encodings: latin1 utf-8\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr"
+
+
+msgid "heading_portlet"
+msgstr "Animation Flash"
+
+msgid "desc_portlet"
+msgstr "Une boîte affichant une animation Flash."
+
+msgid "label_type_flashmovie"
+msgstr "Animation Flash"
+
+msgid "desc_type_flashmovie"
+msgstr "Une animation Adobe Flash."

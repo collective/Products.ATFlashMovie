@@ -1,0 +1,52 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:zcml="http://namespaces.zope.org/zcml"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:plone="http://namespaces.plone.org/plone"
+           i18n_domain="ATFlashMovie">
+
+  <browser:page
+      for="Products.ATFlashMovie.interfaces.IFlashMovie"
+      name="flash_view"
+      class=".browser.flashMovieView"
+      permission="zope.Public"
+      allowed_attributes="getDisplayWidth getDisplayHeight"
+   />
+
+  <browser:page
+     zcml:condition="installed Products.Collage"
+     name="standard"
+     for="Products.ATFlashMovie.interfaces.IFlashMovie"
+     permission="zope.Public"
+     template="collage_standard.pt"
+     class=".browser.CollageStandardView"
+     layer="Products.Collage.interfaces.ICollageBrowserLayer"
+  />
+
+  <browser:page
+     zcml:condition="installed Products.Collage"
+     name="portlet"
+     for="Products.ATFlashMovie.interfaces.IFlashMovie"
+     permission="zope.Public"
+     template="collage_portlet.pt"
+     class=".browser.CollagePortletView"
+     layer="Products.Collage.interfaces.ICollageBrowserLayer"
+  />
+
+  <utility
+      component=".portlet.SourcesVocabularyFactory"
+      name="flashmovie.portlet.flashselection"
+  />
+
+  <plone:portlet
+      name="portlets.Flashmovie"
+      interface=".portlet.IFlashMoviePortlet"
+      assignment=".portlet.Assignment"
+      renderer=".portlet.Renderer"
+      addview=".portlet.AddForm"
+      editview=".portlet.EditForm"
+      view_permission="zope2.View"
+      edit_permission="cmf.ManagePortal"
+   />
+
+
+</configure>

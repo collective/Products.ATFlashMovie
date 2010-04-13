@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATFlashMovie 1.0\n"
+"POT-Creation-Date: 2005-03-25 16:38+0100\n"
+"PO-Revision-Date: 2007-12-11 18:28+0100\n"
+"Last-Translator: Jean-Charles ROGEZ <jean-charles.rogez@edf.fr>\n"
+"MIME-Version: 1.0\n"
+"Language-Team: EDF\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: fr\n"
+"Language-name: French\n"
+"Preferred-encodings: latin1 utf-8\n"
+"Domain: ATFlashMovie\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr"
+
+
+msgid "label_scale"
+msgstr "Echelle"
+
+msgid "desc_scale"
+msgstr "Sélectionnez la taille de l'animation."
+
+msgid "label_width"
+msgstr "Largeur"
+
+msgid "desc_width"
+msgstr "La largeur de l'animation en pixels."
+
+msgid "label_height"
+msgstr "Hauteur"
+
+msgid "desc_height"
+msgstr "La hauteur de l'animation en pixels"
+
+msgid "label_flashversion"
+msgstr "Version Flash"
+
+msgid "label_bgcolor"
+msgstr "Couleur de fond"
+
+msgid "desc_bgcolor"
+msgstr "Sélectionnez la couleur de fond pour l'animation."
+
+msgid "heading_portlet"
+msgstr "Animation Flash"
+
+msgid "add_portlet"
+msgstr "Ajouter une boîte Flash"
+
+msgid "desc_portlet"
+msgstr "Une boîte affichant une animation Flash."
+
+msgid "edit_portlet"
+msgstr "Modifier la boîte Flash"
+
+msgid "label_portlet_selection"
+msgstr "Animation Flash"
+
+msgid "help_portlet_selection"
+msgstr "Sélectionnez l'animation Flash à afficher dans la boîte."
+
+msgid "technical_informations"
+msgstr "Informations techniques"
+
+msgid "label_technical_info"
+msgstr "Afficher les informations techniques"
+
+msgid "desc_technical_info"
+msgstr "Cochez pour afficher les informations techniques de l'animation Flash."

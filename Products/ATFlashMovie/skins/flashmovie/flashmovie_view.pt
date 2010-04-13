@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xml:lang="en-US"
+      lang="en-US"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="ATFlashMovie">
+
+<body>
+   <metal:main fill-slot="main">
+     <tal:main-macro metal:define-macro="main"
+             tal:define="kssClassesView context/@@kss_field_decorator_view;
+                         getKssClasses nocall:kssClassesView/getKssClassesInlineEditable;">
+
+        <div tal:replace="structure provider:plone.abovecontenttitle" />
+        <h1 metal:use-macro="here/kss_generic_macros/macros/generic_title_view">
+            Title or id
+        </h1>
+        <div tal:replace="structure provider:plone.belowcontenttitle" />
+
+        <p metal:use-macro="here/kss_generic_macros/macros/generic_description_view">
+            Description
+        </p>
+
+        <div tal:replace="structure provider:plone.abovecontentbody" />
+
+        <div metal:use-macro="here/flashmovie_macros/macros/flashobject">Flash Movie</div>
+        <div metal:use-macro="here/flashmovie_macros/macros/flashinfo">Flash Infos</div>
+
+        <div tal:replace="structure provider:plone.belowcontentbody" />
+    </tal:main-macro>
+   </metal:main>
+</body>
+</html>

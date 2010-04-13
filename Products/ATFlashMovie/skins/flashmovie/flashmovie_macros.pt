@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      i18n:domain="ATFlashMovie">
+
+<body>
+
+<metal:block metal:define-macro="flashobject"  tal:omit-tag="">
+  <object type="application/x-shockwave-flash"
+	data=""
+        width="320"
+        height="200"
+	bgcolor="transparent"
+	tal:define="view context/@@flash_view;
+	            width view/getDisplayWidth;
+		    height view/getDisplayHeight;"
+        tal:attributes="width width|default; height height|default; bgcolor context/getBgcolor|default;
+			data string:${context/absolute_url}/index_html">
+      <param name="movie" value="" bgcolor="transparent" 
+             tal:attributes="value string:${context/absolute_url}/index_html;" />
+      <param name="bgcolor" value="transparent" tal:attributes="value context/getBgcolor|default;" />
+      <param name="wmode" value="transparent" />
+  </object>
+</metal:block>
+
+<dl metal:define-macro="flashinfo" class="collapsible collapsedOnLoad" tal:condition="context/getTechnical_info">
+    <dt class="collapsibleHeader" i18n:translate="technical_informations">Technical informations</dt>
+    <dd class="collapsibleContent">
+       <ul class="discreet">
+         <li><span i18n:translate="label_flashversion">Flash Version</span> : <span tal:replace="context/flashversion">1</span></li>
+         <li><span i18n:domain="plone" i18n:translate="label_size">Size</span> : <span tal:replace="context/width">1</span> X <span tal:replace="context/height">1</span></li>
+       </ul>
+    </dd>
+</dl>
+
+</body>
+</html>
