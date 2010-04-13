@@ -1,91 +1,131 @@
-#######
-CHANGES
-#######
+Changelog
+=========
+
+1.1 (2010-04-13)
+----------------
+
+* Eggified product and reformatted files.
+  [deo]
+
+* Removed the English fallbacks that were being set by the Bulgarian
+  translatins.
+  [deo]
 
 
-1.0.4 -- UNRELEASED
-#####
+1.0.3 (2009-04-06)
+------------------
+
+* Add 'application/x-shockwave-flash' to inlineMimetypes for the
+  ATFlashMovie content type, and serve it via the index_html method,
+  so that it is compatible with Flash 10.
+  [davisagli] 
 
 
-1.0.3
-#####
+1.0.2 (2008-07-10)
+------------------
 
-* Add 'application/x-shockwave-flash' to inlineMimetypes for the ATFlashMovie
-  content type, and serve it via the index_html method, so that it is
-  compatible with Flash 10.
-  [davisagli] 2009-04-06
+* Updated CHANGES.TXT format (more detailed).
+  [kdeldycke] 
 
-1.0.2
-#####
+* Fix bug that disallow setFile() to receive a stream of
+  bytes as parameter.
+  [kdeldycke]
 
-* Update CHANGES.TXT format (more detailed)
-* Fix bug that disallow setFile() to receive a stream of bytes as parameter
-  [kdeldycke] 2008-07-09
-
-* Let DHTML dropdown menu be displayed above flash content
-  [kdeldycke] 2008-07-10
+* Let DHTML dropdown menu be displayed above flash content.
+  [kdeldycke] 
 
 
-1.0.1
-#####
+1.0.1 (2008-01-17)
+------------------
 
-* Fixed type translation
-* Fixed FlashMovie aliasing bug in Collage
-* Added Reference action
-* Fixed issue when Kupu reference browser widget is on
-* Added a portlet view for Collage
-* Added a flag to display or not the technical informations
-* Added Kupu integration documentation in README.txt
-  [zegor] 2008-01-17
+* Fixed type translation.
+  [zegor] 
 
+* Fixed FlashMovie aliasing bug in Collage.
+  [zegor] 
 
-1.0.0
-#####
+* Added Reference action.
+  [zegor] 
 
-* Port to Plone 3.0
-* Use of five views and interface
-* Install via GenericSetup
-* Adapted skins
-* ATColorPickerWidget remplaced by SmartColorWidget
-* Uses PortalFactory
-* Collage viewlet
-  [zegor] 2007-11-14
+* Fixed issue when Kupu reference browser widget is on.
+  [zegor] 
 
+* Added a portlet view for Collage.
+  [zegor] 
 
-0.3.1
-#####
+* Added a flag to display or not the technical informations.
+  [zegor] 
 
-* Direct access to object do not download the flash file anymore
-  [zegor] 2007-03-01
+* Added Kupu integration documentation in README.txt.
+  [zegor] 
 
 
-0.3
-###
+1.0.0 (2007-11-14)
+------------------
 
-* Changed accessor method name for better marshall support
-* Made the content class follow atct code standard
+* Port to Plone 3.
+  [zegor] 
+
+* Use of five views and interface.
+  [zegor] 
+
+* Install via GenericSetup.
+  [zegor] 
+
+* Adapted skins.
+  [zegor] 
+
+* ATColorPickerWidget replaced by SmartColorWidget.
+  [zegor] 
+
+* Uses PortalFactory.
+  [zegor] 
+
+* Collage viewlet.
+  [zegor] 
+
+
+0.3.1 (2007-03-01)
+------------------
+
+* Direct access to object do not download the flash file anymore.
+  [zegor] 
+
+
+0.3 (2006-09-05)
+----------------
+
+* Changed accessor method name for better marshall support.
+  [zegor] 
+
+* Made the content class follow atct code standard.
   [panjunyong]
 
-* Added german translation
+* Added german translation.
   [christian@daftdog.de]
 
-* Auto-install ATColorPicker if not installed
-* Plone 2.5 compatibility
-  [zegor] 2006-09-05
+* Auto-install ATColorPicker if not installed.
+  [zegor] 
+
+* Plone 2.5 compatibility.
+  [zegor] 
 
 
-0.2
-###
+0.2 (2006-03-31)
+----------------
 
-* Added viewlet for CMFContentPanel
-* Added color background field
+* Added viewlet for CMFContentPanel.
+  [zegor] 
+
+* Added color background field.
+  [zegor] 
+
 * Removed deprecated <embed> tags in flashmovie_macros.pt
-  [zegor] 2006-03-31
+  [zegor] 
 
 
 0.1
-###
+---
 
-* Init
+* Initial version.
   [zegor]
- 
