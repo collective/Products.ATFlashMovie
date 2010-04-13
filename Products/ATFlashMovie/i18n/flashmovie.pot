@@ -13,7 +13,6 @@ msgstr ""
 "Language-name: English\n"
 "Preferred-encodings: latin1 utf-8\n"
 "Domain: ATFlashMovie\n"
-"X-Is-Fallback-For: en-au en-bz en-ca en-ie en-jm en-nz en-ph en-za en-tt en-gb en-us en-zw\n"
 
 
 msgid "label_scale"
@@ -29,7 +28,7 @@ msgid "desc_width"
 msgstr "The width of the movie in pixels."
 
 msgid "label_height"
-msgstr "Hauteur"
+msgstr "Height"
 
 msgid "desc_height"
 msgstr "The height of the movie in pixels."
