@@ -6,7 +6,7 @@ def read(*rnames):
 
 version = read('Products', 'ATFlashMovie', 'version.txt').strip()
 
-setup(name='Product.ATFlashMovie',
+setup(name='Products.ATFlashMovie',
       version=version,
       description='A Flash content-type and extra views for Plone.',
       long_description=read('Products', 'ATFlashMovie', 'README.txt') + "\n\n" +
