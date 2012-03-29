@@ -76,4 +76,6 @@ Credits
 
 * Christian Schneide (rchristian@daftdog.de): German translation
 
+* Manuel Gualda Caballero (manuel@acentoweb.com) : Spanish translation
+
 * Dorneles Tremea (dorneles@tremea.com): Eggification, bugfix 
