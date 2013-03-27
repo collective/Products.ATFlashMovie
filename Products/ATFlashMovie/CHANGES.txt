@@ -15,7 +15,7 @@ Changelog
   [deo]
 
 * Removed the English fallbacks that were being set by the Bulgarian
-  translatins.
+  translations.
   [deo]
 
 
