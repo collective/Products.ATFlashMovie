@@ -4,9 +4,11 @@ Changelog
 1.1.1 Unreleased
 ----------------
 
-* Spanish translation
+* Spanish translation.
   [zegor]
 
+* Plone 4.1+ compatibility (fix zcml error on startup in the browser package).
+  [LeoRochael]
 
 1.1 (2010-04-13)
 ----------------
@@ -15,7 +17,7 @@ Changelog
   [deo]
 
 * Removed the English fallbacks that were being set by the Bulgarian
-  translatins.
+  translations.
   [deo]
 
 

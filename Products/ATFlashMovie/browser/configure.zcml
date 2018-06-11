@@ -37,6 +37,8 @@
       name="flashmovie.portlet.flashselection"
   />
 
+  <include package="Products.CMFCore" />
+
   <plone:portlet
       name="portlets.Flashmovie"
       interface=".portlet.IFlashMoviePortlet"
